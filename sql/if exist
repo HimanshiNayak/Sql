@@ -1,1 +1,2 @@
-
+CREATE DATABASE IF NOT EXIST college ; //if the college doesnt exist tehn it creates itr otherwise not
+Drop DATABASE IF EXIST college; //deletes only when this db exist , otherwise only warning without error
